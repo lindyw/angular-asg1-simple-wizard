@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: -webkit-fill-available;
+}
+
+.wizard-container {
+    border: 1px solid #000;
+    width:600px;
+    height:600px;
+    padding:1%;
+}
+
+.wizard-route {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b1d6eb;
+    height: 20%;
+    border: 2px solid rgb(140, 175, 87);
+}
+
+.stepper {
+    display: grid;
+    height: 20px;
+    width: 20px;
+    border-radius: 30px;
+    background-color: grey;
+    color: white;
+    text-align:center;
+    font-size: 1m;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:10px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size:1em;
+}
+

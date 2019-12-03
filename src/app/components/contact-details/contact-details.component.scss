@@ -1,0 +1,25 @@
+// form
+
+form {
+  height:500px;
+}
+.tab-content .tab-pane{
+    padding-top: 20px;
+}
+
+.alert {
+  padding: 5px;
+  margin-bottom: 8px;
+  font-size:10px;
+}
+
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+
+.btn {
+  margin-left: 10px;
+}
